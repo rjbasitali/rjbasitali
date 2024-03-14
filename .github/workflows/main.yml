@@ -10,7 +10,7 @@ jobs:
   github-metrics:
     runs-on: self-hosted
     environment: 
-      name: production
+      name: prod
     permissions:
       contents: write
     steps:
